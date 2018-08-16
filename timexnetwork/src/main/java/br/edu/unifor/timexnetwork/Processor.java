@@ -1,16 +1,16 @@
 package br.edu.unifor.timexnetwork;
 
+import static br.edu.unifor.timexnetwork.MSG.ARESTAS;
+import static br.edu.unifor.timexnetwork.MSG.DEGREE;
+import static br.edu.unifor.timexnetwork.MSG.ID;
+import static br.edu.unifor.timexnetwork.MSG.VERTICES;
+import static br.edu.unifor.timexnetwork.MSG.VIRGULA;
+
 import org.graphstream.graph.Graph;
 import org.graphstream.graph.Node;
 import org.graphstream.graph.implementations.SingleGraph;
 
 public class Processor {
-
-	private static final String VIRGULA = ", ";
-	private static final String ARESTAS = "ARESTAS";
-	private static final String VERTICES = "Vértices:";
-	private static final String DEGREE = "Degree: ";
-	private static final String ID = "ID: ";
 
 	public static void setNodesSizes(Graph graph, Integer escalaTamanho) {
 		int minimumsize = 1;
@@ -56,11 +56,11 @@ public class Processor {
 
 //		Configurando Style
 		graph.getNode("A").setAttribute("ui.style", "shape:pie-chart;fill-color:rgb(127,0,55),rgb(255,0,110),rgb(1,127,1);");
-//		graph.getNode("A").setAttribute("ui.pie-values", "0.333,0.333,0.333");
+		graph.getNode("A").setAttribute("ui.pie-values", "0.333,0.333,0.333");
 		graph.getNode("B").setAttribute("ui.style", "shape:pie-chart; fill-color: rgb(255,0,110), rgb(0,255,1);");
-//		graph.getNode("B").setAttribute("ui.pie-values", "0.5,0.5");
+		graph.getNode("B").setAttribute("ui.pie-values", "0.5,0.5");
 		graph.getNode(3).setAttribute("ui.style", "shape:pie-chart; fill-color: rgb(255,0,110), rgb(0,255,1);");
-//		graph.getNode(3).setAttribute("ui.pie-values", "0.5,0.5");
+		graph.getNode(3).setAttribute("ui.pie-values", "0.5,0.5");
 
 		graph.addAttribute("ui.quality");
 		graph.addAttribute("ui.antialias");

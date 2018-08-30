@@ -43,28 +43,28 @@ public class Processor {
 		graph.addNode("C");
 		graph.addNode("D");
 		graph.addEdge("AB", "A", "B", true);
-		graph.addEdge("BC", "B", "C", true);
+//		graph.addEdge("BC", "B", "C", true);
 		graph.addEdge("CD", "C", "D", true);
 		graph.addEdge("DA", "D", "A", true);
 		graph.addEdge("CA", "C", "A", true);
 		graph.addEdge("BD", "B", "D", true);
-		graph.addEdge("BD2", "B", "D", true);
+//		graph.addEdge("BD2", "B", "D", true);
 		graph.addEdge("BD3", "B", "D", true);
 		graph.addEdge("BD4", "B", "D", true);
 
 		setNodesSizes(graph, 2);
 
 //		Configurando Style
-		graph.getNode("A").setAttribute("ui.style", "shape:pie-chart;fill-color:rgb(127,0,55),rgb(255,0,110),rgb(1,127,1);");
-		graph.getNode("A").setAttribute("ui.pie-values", "0.333,0.333,0.333");
-		graph.getNode("B").setAttribute("ui.style", "shape:pie-chart; fill-color: rgb(255,0,110), rgb(0,255,1);");
-		graph.getNode("B").setAttribute("ui.pie-values", "0.5,0.5");
-		graph.getNode(3).setAttribute("ui.style", "shape:pie-chart; fill-color: rgb(255,0,110), rgb(0,255,1);");
-		graph.getNode(3).setAttribute("ui.pie-values", "0.5,0.5");
-
-		graph.addAttribute("ui.quality");
-		graph.addAttribute("ui.antialias");
-		graph.addAttribute("ui.stylesheet", "url('resource/style.css')");
+//		graph.getNode("A").setAttribute("ui.style", "shape:pie-chart;fill-color:rgb(127,0,55),rgb(255,0,110),rgb(1,127,1);");
+//		graph.getNode("A").setAttribute("ui.pie-values", "0.333,0.333,0.333");
+//		graph.getNode("B").setAttribute("ui.style", "shape:pie-chart; fill-color: rgb(255,0,110), rgb(0,255,1);");
+//		graph.getNode("B").setAttribute("ui.pie-values", "0.5,0.5");
+//		graph.getNode(3).setAttribute("ui.style", "shape:pie-chart; fill-color: rgb(255,0,110), rgb(0,255,1);");
+//		graph.getNode(3).setAttribute("ui.pie-values", "0.5,0.5");
+//
+//		graph.addAttribute("ui.quality");
+//		graph.addAttribute("ui.antialias");
+//		graph.addAttribute("ui.stylesheet", "url('resource/style.css')");
 		graph.display();
 
 		System.out.println(VERTICES);

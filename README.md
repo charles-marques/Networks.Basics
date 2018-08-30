@@ -5,10 +5,8 @@ Pacote para projetos de Redes Complexas
 São utilizadas
 
 ### Linguagens:
-Java
 Python
 
 ### Frameworks:
-GraphStream (Java)
 NetworkX (Python)
 MatPlotLib (Python)

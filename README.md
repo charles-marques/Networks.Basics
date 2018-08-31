@@ -8,5 +8,6 @@ São utilizadas
 Python
 
 ### Frameworks:
-NetworkX (Python)
-MatPlotLib (Python)
+NetworkX
+MatPlotLib
+GraphTool 

@@ -67,4 +67,4 @@ be.a /= be.a.max() / 5
 
 graph_draw(g, pos=pos, vertex_fill_color=bv, edge_pen_width=be, output="timexnetwork_v5.png")
 # graph_draw(g, vertex_text=g.vertex_index, vertex_font_size=18, output_size=(200, 200), output="two-nodes.png")
-#graph_draw(g, output_size=(1200, 1200), vertex_color=[1,1,1,0], vertex_fill_color=g.vertex_index, vertex_size=1, edge_pen_width=1.2, vcmap=matplotlib.cm.gist_heat_r, output="timexnetwork.png")
+# graph_draw(g, output_size=(1200, 1200), vertex_color=[1,1,1,0], vertex_fill_color=g.vertex_index, vertex_size=1, edge_pen_width=1.2, vcmap=matplotlib.cm.gist_heat_r, output="timexnetwork.png")

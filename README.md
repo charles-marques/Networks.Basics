@@ -1,5 +1,5 @@
-# Networks.Basics
-Pacote para projetos de Redes Complexas
+# Networks.Data.Processing
+Pacote para processamento final dos dados dos projetos de Redes Complexas
 
 ## Features
 São utilizadas

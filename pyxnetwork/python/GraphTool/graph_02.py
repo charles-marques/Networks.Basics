@@ -11,7 +11,7 @@ modo = 'r'
 csv = '.csv'
 vertices = []
 
-vfile = "/home/suporte/eclipse-workspace/network/pyxnetwork/resource/Vertices"
+vfile = "/home/suporte/eclipse-workspace/Networks.Data.Processing/pyxnetwork/resource/Vertices"
 vf = open(vfile + csv, modo)
 primeiro = 'true'
 
@@ -38,7 +38,7 @@ print 'Total de vertices:'
 print len(list(vlist))
 
 
-filename = "/home/suporte/eclipse-workspace/network/pyxnetwork/resource/Arestas"
+filename = "/home/suporte/eclipse-workspace/Networks.Data.Processing/pyxnetwork/resource/Arestas"
 f = open(filename + csv, modo)
 primeiro = "true"
 
@@ -65,6 +65,6 @@ pos = sfdp_layout(g)
 bv, be = betweenness(g)
 be.a /= be.a.max() / 5
 
-graph_draw(g, pos=pos, vertex_fill_color=bv, edge_pen_width=be, output="timexnetwork_v5.png")
+graph_draw(g, pos=pos, vertex_fill_color=bv, edge_pen_width=be, output="timexnetwork_v6.png")
 # graph_draw(g, vertex_text=g.vertex_index, vertex_font_size=18, output_size=(200, 200), output="two-nodes.png")
 # graph_draw(g, output_size=(1200, 1200), vertex_color=[1,1,1,0], vertex_fill_color=g.vertex_index, vertex_size=1, edge_pen_width=1.2, vcmap=matplotlib.cm.gist_heat_r, output="timexnetwork.png")

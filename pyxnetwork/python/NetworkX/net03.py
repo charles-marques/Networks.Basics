@@ -5,9 +5,9 @@
 
 filedata = None
 
-file1 = open('/home/suporte/eclipse-workspace/Networks.Data.Processing/pyxnetwork/resource/od_path/path-origens-e-destinos-11-3-2015.txt.txt','r')
-file2 = open('/home/suporte/eclipse-workspace/Networks.Data.Processing/pyxnetwork/resource/od_path/path-origens-e-destinos-11-3-2015.txt.csv','w')
-file3 = open('/home/suporte/eclipse-workspace/Networks.Data.Processing/pyxnetwork/resource/od_path/path-origens-e-destinos-por-usuario.txt','w')
+file1 = open('/home/suporte/eclipse-workspace/Networks.Data.Processing/resource/od_path/path-origens-e-destinos-11-3-2015.txt.txt','r')
+file2 = open('/home/suporte/eclipse-workspace/Networks.Data.Processing/resource/od_path/path-origens-e-destinos-11-3-2015.txt.csv','w')
+file3 = open('/home/suporte/eclipse-workspace/Networks.Data.Processing/resource/od_path/path-origens-e-destinos-por-usuario.txt','w')
 
 for line in file1:
     if 'cod_acao5544486' in line:
